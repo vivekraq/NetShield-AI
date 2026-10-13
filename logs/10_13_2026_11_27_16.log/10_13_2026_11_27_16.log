@@ -1,0 +1,50 @@
+[ 2026-10-13 11:28:31,075 ] 42 root - INFO - Start data Ingestion
+[ 2026-10-13 11:28:37,596 ] 72 root - INFO - Performed train test split on the dataframe
+[ 2026-10-13 11:28:37,597 ] 74 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-10-13 11:28:37,598 ] 82 root - INFO - Exporting train and test file path.
+[ 2026-10-13 11:28:37,678 ] 91 root - INFO - Exported train and test file path.
+[ 2026-10-13 11:28:37,680 ] 45 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\10_13_2026_11_27_19\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\10_13_2026_11_27_19\\data_ingestion\\ingested\\test.csv')
+[ 2026-10-13 11:28:37,699 ] 55 root - INFO - Initiate the data Validation
+[ 2026-10-13 11:28:37,779 ] 32 root - INFO - Required number of columns:2
+[ 2026-10-13 11:28:37,779 ] 33 root - INFO - Data frame has columns:31
+[ 2026-10-13 11:28:37,779 ] 32 root - INFO - Required number of columns:2
+[ 2026-10-13 11:28:37,779 ] 33 root - INFO - Data frame has columns:31
+[ 2026-10-13 11:28:38,077 ] 63 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2026-10-13 11:28:38,078 ] 65 root - INFO - Starting data transformation
+[ 2026-10-13 11:28:38,147 ] 48 root - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[ 2026-10-13 11:28:38,148 ] 53 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2026-10-13 11:28:38,340 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-10-13 11:28:38,350 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-10-13 11:28:38,350 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-10-13 11:28:38,368 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-10-13 11:32:58,799 ] 874 urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/runs/create
+[ 2026-10-13 11:33:05,433 ] 874 urllib3.connectionpool - WARNING - Retrying (Retry(total=5, connect=5, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/runs/create
+[ 2026-10-13 11:33:16,095 ] 874 urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/runs/create
+[ 2026-10-13 11:33:34,431 ] 874 urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/runs/create
+[ 2026-10-13 11:34:08,768 ] 874 urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/runs/create
+[ 2026-10-13 11:35:14,843 ] 874 urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/runs/create
+[ 2026-10-13 11:37:16,875 ] 874 urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/runs/create
+[ 2026-10-13 11:49:51,017 ] 42 root - INFO - Start data Ingestion
+[ 2026-10-13 11:49:56,751 ] 72 root - INFO - Performed train test split on the dataframe
+[ 2026-10-13 11:49:56,751 ] 74 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-10-13 11:49:56,752 ] 82 root - INFO - Exporting train and test file path.
+[ 2026-10-13 11:49:56,827 ] 91 root - INFO - Exported train and test file path.
+[ 2026-10-13 11:49:56,827 ] 45 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\10_13_2026_11_27_19\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\10_13_2026_11_27_19\\data_ingestion\\ingested\\test.csv')
+[ 2026-10-13 11:49:56,838 ] 55 root - INFO - Initiate the data Validation
+[ 2026-10-13 11:49:56,903 ] 32 root - INFO - Required number of columns:2
+[ 2026-10-13 11:49:56,903 ] 33 root - INFO - Data frame has columns:31
+[ 2026-10-13 11:49:56,904 ] 32 root - INFO - Required number of columns:2
+[ 2026-10-13 11:49:56,904 ] 33 root - INFO - Data frame has columns:31
+[ 2026-10-13 11:49:57,125 ] 63 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2026-10-13 11:49:57,125 ] 65 root - INFO - Starting data transformation
+[ 2026-10-13 11:49:57,178 ] 48 root - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[ 2026-10-13 11:49:57,179 ] 53 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2026-10-13 11:49:57,221 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-10-13 11:49:57,227 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-10-13 11:49:57,227 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-10-13 11:49:57,232 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-10-13 11:54:24,417 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-10-13 11:54:24,449 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-10-13 11:54:24,449 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-10-13 11:54:24,478 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-10-13 11:54:24,478 ] 140 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\10_13_2026_11_27_19\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9917255297679112, precision_score=0.9895287958115183, recall_score=0.9939320388349514), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9690553745928339, precision_score=0.9573612228479486, recall_score=0.9810387469084914))
