@@ -1,6 +1,5 @@
 # NetworkSecurity — ML Pipeline with CI/CD
 
-![NetworkSecurity Project Screenshot](sss.png)
 An end-to-end machine learning project for network security and phishing-data classification, built with Python, FastAPI, scikit-learn, MongoDB, MLflow, AWS S3, Docker, and GitHub Actions.
 
 ## Overview
